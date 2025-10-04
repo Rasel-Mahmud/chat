@@ -11,5 +11,9 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "chat": ".",
+    "vite": "^7.1.9"
+  }
 }
